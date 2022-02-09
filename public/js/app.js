@@ -26,7 +26,8 @@ weatherForm.addEventListener('submit',(e)=>{
             console.log(data.weather)
             messageOne.textContent = data.address
             messageTwo.textContent = 'the current temp is ' + data.weather.currentTemp +
-            ' The temp feels like ' + data.weather.feltTemp + ' and the weather is ' + data.weather.weathDescp  
+            ' The temp feels like ' + data.weather.feltTemp + ' and the weather is ' + data.weather.weathDescp 
+            + ' The humidity is ' + data.weather.humidity
         }
 
         
